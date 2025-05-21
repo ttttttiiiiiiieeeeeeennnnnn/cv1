@@ -1,0 +1,90 @@
+<style>
+body {
+    font-family: Arial, "Segoe UI", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+    @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    .sidebar,
+    .main-content {
+      width: 100%;
+      border-radius: 10px 10px 0 0;
+    }
+    .main-content {
+      border-radius: 0 0 10px 10px;
+    }
+    h1 {
+      font-size: 1.5em;
+    }
+  }
+
+  .container {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .sidebar {
+    width: 40%;
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+  }
+  .main-content {
+    width: 60%;
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+  }
+  h1 {
+    color: #fff;
+    font-size: 2em;
+    margin-top: 0;
+  }
+  h2 {
+    color: #fff;
+    border-bottom: 2px solid #aaa;
+    padding-bottom: 8px;
+    font-size: 1.3em;
+  }
+  .main-content h2 {
+    color: #2c3e50;
+  }
+  ul {
+    padding-left: 20px; /* Thêm thụt lề cho danh sách */
+  }
+  ul li {
+    margin-bottom: 8px;
+  }
+  .section {
+    margin-bottom: 20px; /* Khoảng cách giữa các phần */
+  }
+  .info p {
+    margin: 5px 0; /* Khoảng cách giữa các dòng trong info */
+  }
+  .info p i {
+    width: 20px;
+    margin-right: 5px;
+    text-align: center;
+  }
+  .job-title {
+    font-size: 1em;
+    font-style: italic;
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
